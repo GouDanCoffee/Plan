@@ -16,7 +16,7 @@ dependencies {
 
     testImplementation "org.spongepowered:spongeapi:$spongeVersion"
     annotationProcessor "org.spongepowered:spongeapi:$spongeVersion"
-    implementation "org.spongepowered:mixin:0.7.11-SNAPSHOT"
+    implementation "org.spongepowered:mixin:0.8.5"
 
     testImplementation project(path: ":common", configuration: 'testArtifacts')
 }
